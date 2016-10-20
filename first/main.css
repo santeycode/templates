@@ -1,8 +1,9 @@
 body {
     margin:0;
     height: 3349px;
+    font-family: sans-serif;
 }
-body:hover:after {
+body/*:hover*/:after {
     content: '';
     display: block;
     background: url(screenshot.png) top center no-repeat;
@@ -12,4 +13,22 @@ body:hover:after {
     top: 0;
     left: 0;
     opacity: 0.5;
+}
+.top-bar {
+    background: #2c3e50;
+    color: #ffffff;
+}
+.top-bar-name {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 46px;
+    padding: 13px 38px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
