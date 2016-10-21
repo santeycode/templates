@@ -64,10 +64,17 @@ body:hover:after {
     height: 256px;
     border-radius: 128px;
     margin: 126px 40%;
-    background-attachment: fixed;
     background: #2c3e50
-        url("http://www.doclicksolutions.com/img/web_training.png") no-repeat 
-        50% 60%;
+        url("img/logo.png") no-repeat 50% 60%;
     background-size: 160px;
     
+}
+.main-content {
+    height: 886px;
+    background-color: #ffffff;
+    border-bottom: px solid black;
+}
+.main-content-item {
+    width: 360px;
+    height: 260px;
 }
