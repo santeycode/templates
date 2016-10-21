@@ -3,7 +3,7 @@ body {
     height: 3349px;
     font-family: sans-serif;
 }
-body/*:hover*/:after {
+body:after {
     content: '';
     display: block;
     background: url(screenshot.png) top center no-repeat;
@@ -12,7 +12,10 @@ body/*:hover*/:after {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.6;
+}
+body:hover:after {
+    display: none;
 }
 .top-bar {
     background: #2c3e50;
@@ -31,4 +34,23 @@ body/*:hover*/:after {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+ul ,li {
+    display: inline-block;
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.top-bar-navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 44px;
+    padding: 14px 21px;
+    display: inline-block;
+    color: #ffffff;
 }
