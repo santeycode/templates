@@ -52,3 +52,22 @@ body:hover:after {
     display: inline-block;
     color: #ffffff;
 }
+ .top-pane {
+    height: 692px;
+    background: #18bc9c;
+    clear: both;
+    border-top: 1px solid #2c3e50;
+ }
+.circle {
+    background: #2c3e50;
+    width: 256px;
+    height: 256px;
+    border-radius: 128px;
+    margin: 126px 40%;
+    background-attachment: fixed;
+    background: #2c3e50
+        url("http://www.doclicksolutions.com/img/web_training.png") no-repeat 
+        50% 60%;
+    background-size: 160px;
+    
+}
