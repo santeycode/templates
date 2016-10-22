@@ -89,22 +89,3 @@ body:hover:after {
     text-transform: capitalize;
     white-space: pre;
 }
-    
-/*.main-content {
-    height: 886px;
-    background-color: #ffffff;
-    border-bottom: 1px solid black;
-}
-.main-content-item {
-    width: 360px;
-    height: 260px;
-    background: red;
-}
-например у top-pane-logo сделаешь margin-bottom: 20px;
-ну условно 20 - делаешь ско надо
-потом top-pane-title делаешь padding: 20px например
-и margin-bottom скок надно, и у top-pane-desctiption - ток маргин не делаешь.
-а потом задаёшь нужный padding у самого top-pane, к примеру padding: 100px 20px;
-top-pane-title делаешь padding: 20px 0
-так как у top-pane уже будет padding по бокам
-*/
