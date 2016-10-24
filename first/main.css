@@ -57,37 +57,74 @@ body:hover:after {
   display: block;
   clear: both;
 }
- .top-pane {
+.top-pane {
     background: #18bc9c;
-    padding: 128px 0 0 512px;
-    
+    text-align: center;
+    padding: 128px 0 102px;
  }
 .top-pane-logo {
     background: #2c3e50;
     width: 256px;
     height: 256px;
     border-radius: 128px;
-    display: inline-block;
     background: #2c3e50
         url("img/logo.png") no-repeat 50% 65%;
     background-size: 180px;
-    margin-bottom: 310px;
+    margin: 0 auto;
 }
 .top-pane-title{
     font-size: 68px;
     font-weight: bold;
-    display: inline-block;
     color: #ffffff;
-    white-space: pre;
-    padding-top: 20px;
-    margin: 264px 0 74px -286px;
+    margin: 28px auto;
+    
 }
 .top-pane-desctiption {
     font-size: 24px;
-    display: inline-block;
     color: #ffffff;
-    text-transform: uppercase;
     font-weight: 500;
     text-transform: capitalize;
     white-space: pre;
+    padding-top: 46px;
+    margin: 0 auto;
+}
+.main-content-brief-bag {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    color: #333333;
+    padding: 100px 0 38px;
+}
+.main-content {    
+    background: yellow;
+}
+.main-content-item {
+    display: inline-block;
+    width: 30%;
+    height: 25%;
+    margin: 20px 36px ;
+    vertical-align: top;
+}
+.home {
+    background: #ba4c63;
+    padding: 28px px;
+}
+.cake {
+    background: #1fa4b6;
+}
+.tent {
+    background: #130f0f;
+}
+.joystick {
+    background: #1d83c1;
+}
+.strongbox {
+    background: #1037b5;
+}
+.submarine {
+    background: #ccb2a3;
+}
+.main-content-item:nth-child(3n) {
+    margin-right: 0;
 }
