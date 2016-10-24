@@ -98,17 +98,19 @@ body:hover:after {
 }
 .main-content {    
     background: yellow;
+    padding-bottom: 120px;
 }
 .main-content-item {
     display: inline-block;
     width: 30%;
-    height: 25%;
-    margin: 20px 36px ;
+    margin: 20px 0 10px 36px ;
     vertical-align: top;
+}
+img {
+    padding: 28px 78px 24px;
 }
 .home {
     background: #ba4c63;
-    padding: 28px px;
 }
 .cake {
     background: #1fa4b6;
@@ -125,6 +127,6 @@ body:hover:after {
 .submarine {
     background: #ccb2a3;
 }
-.main-content-item:nth-child(3n) {
-    margin-right: 0;
+.cake ,.strongbox ,.tent ,.submarine {
+    margin-left: 26px;
 }
