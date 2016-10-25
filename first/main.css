@@ -156,7 +156,7 @@ img {
     float: right;
     line-height: 1.4;
 }
-.action button {
+.download-action button {
     display: block;
     width: 210px;
     border: 2px solid #ffffff;
@@ -166,4 +166,24 @@ img {
     margin: 24px auto 0;
     font-size: 18px;
     padding: 14px 20px 10px 44px;
+}
+.main-contact {
+    background: #00FF7F;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.contact-me {
+    
+}
+form {
+    
+}
+.main-contact-label {
+    
+}
+.main-contact-input {
+    
+}
+.send-action button {
+    
 }
