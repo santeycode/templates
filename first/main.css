@@ -19,7 +19,7 @@ body:hover:after {
 }
 .top-bar {
     background: #2c3e50;
-    color: #ffffff;
+    color: #fff;
 }
 .top-bar-name {
     text-transform: uppercase;
@@ -28,7 +28,7 @@ body:hover:after {
     line-height: 46px;
     padding: 13px 38px;
     display: inline-block;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 .container {
@@ -50,7 +50,7 @@ body:hover:after {
     line-height: 44px;
     padding: 14px 21px;
     display: inline-block;
-    color: #ffffff;
+    color: #fff;
 }
 .container:after {
   content: '';
@@ -75,13 +75,13 @@ body:hover:after {
 .top-pane-title{
     font-size: 68px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
     margin: 28px auto;
     
 }
 .top-pane-desctiption {
     font-size: 24px;
-    color: #ffffff;
+    color: #fff;
     font-weight: 500;
     text-transform: capitalize;
     white-space: pre;
@@ -93,7 +93,7 @@ body:hover:after {
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
-    color: #333333;
+    color: #333;
     padding: 100px 0 38px;
 }
 .main-content {    
@@ -132,7 +132,7 @@ img {
 .main-about {
     background: #18bc9c;
     padding-bottom: 100px;
-    color: #ffffff;
+    color: #fff;
     
 }
 .about-me {
@@ -159,31 +159,42 @@ img {
 .download-action button {
     display: block;
     width: 210px;
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     border-radius: 6px;
-    color: #ffffff;
+    color: #fff;
     background: #18bc9c;
     margin: 24px auto 0;
     font-size: 18px;
     padding: 14px 20px 10px 44px;
 }
 .main-contact {
-    background: #00FF7F;
-    padding-bottom: 100px;
+    background: #ADFF2F;
     text-align: center;
 }
 .contact-me {
-    
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    padding: 100px 0 58px;
+    color: #333;
 }
-form {
-    
+.main-contact form {
+    width: 100%;
 }
-.main-contact-label {
-    
-}
-.main-contact-input {
-    
+.main-contact input {
+    border: none;
+    border-top: 1px solid #ccc;
+    background: #fff;
+    font-size: 20px;
+    color: #a0a0a0;
+    margin-right: 100px;
+    padding: 28px 12px 22px;
 }
 .send-action button {
-    
+    margin: 144px 660px 114px 0;
+    font-size: 20px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: #18bc9c;
 }
