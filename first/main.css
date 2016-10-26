@@ -1,21 +1,6 @@
 body {
     margin:0;
-    height: 3349px;
     font-family: sans-serif;
-}
-body:after {
-    /*content: '';*/
-    display: block;
-    background: url(screenshot.png) top center no-repeat;
-    width: 100%;
-    height: 3349px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.6;
-}
-body:hover:after {
-    display: none;
 }
 .top-bar {
     background: #2c3e50;
@@ -30,6 +15,7 @@ body:hover:after {
     display: inline-block;
     color: #fff;
     text-decoration: none;
+    float: left;
 }
 .container {
     max-width: 1200px;
@@ -40,6 +26,8 @@ body:hover:after {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.top-bar-navigation {
     float: right;
 }
 .top-bar-navigation a {
@@ -228,6 +216,9 @@ img {
 .main-contact form {
     width: 100%;
 }
+.main-contact .container {
+    max-width: 730px;
+}
 .main-contact input {
     border: none;
     border-top: 1px solid #ccc;
@@ -236,16 +227,19 @@ img {
     color: #a0a0a0;
     padding: 28px 20px 22px 16px;
     width: 100%;
-    max-width: 730px;
-    margin: 0 auto;
+    box-sizing: border-box;
 }
 .send-action button {
-    margin: 144px 660px 114px 0;
+    margin: 144px 0 114px 0;
     font-size: 20px;
     padding: 10px 12px;
     border-radius: 8px;
     background: #18bc9c;
     color: #fff;
+}
+.send-action {
+    text-align: left;
+    
 }
 .bottom-pane{
     width: 100%;
@@ -297,4 +291,16 @@ img {
     font-size: 13px;
     padding: 28px 0 28px;
     color: #fff;
+}
+@media (max-width: 750px) {
+    .top-bar-name {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    .top-bar-navigation  {
+        display: block;
+        float: none;
+        text-align: center;
+    }
 }
