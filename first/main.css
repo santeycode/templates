@@ -168,14 +168,12 @@ img {
     padding: 14px 20px 10px 44px;
 }
 .main-contact {
-    background: #ADFF2F;
     text-align: center;
 }
 .contact-me {
     font-size: 42px;
     text-transform: uppercase;
     font-weight: 900;
-    text-align: center;
     padding: 100px 0 58px;
     color: #333;
 }
@@ -188,8 +186,9 @@ img {
     background: #fff;
     font-size: 20px;
     color: #a0a0a0;
-    margin-right: 100px;
-    padding: 28px 12px 22px;
+    padding: 28px 20px 22px 16px;
+    width: 730px;
+    margin: 0 auto;
 }
 .send-action button {
     margin: 144px 660px 114px 0;
@@ -197,4 +196,5 @@ img {
     padding: 10px 12px;
     border-radius: 8px;
     background: #18bc9c;
+    color: #fff;
 }
