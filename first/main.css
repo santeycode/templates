@@ -156,6 +156,11 @@ img {
     float: right;
     line-height: 1.4;
 }
+.about-me:after {
+    content: "";
+  display: table;
+  clear: both;
+}
 .download-action button {
     display: block;
     width: 210px;
@@ -196,5 +201,56 @@ img {
     padding: 10px 12px;
     border-radius: 8px;
     background: #18bc9c;
+    color: #fff;
+}
+.bottom-pane{
+    width: 100%;
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 58px;
+}
+.bottom-pane-title {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 68px 0 30px;
+}
+.bottom-pane-location {
+    margin-left: 40px;
+}
+.bottom-pane-location,
+.bottom-pane-web,
+.bottom-pane-freelancer {
+    float: left;
+    width: 30%;
+    
+}
+.bottom-pane:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bottom-pane-street,
+.bottom-pane-place,
+.bottom-pane-text {
+     font-size: 18px;
+     line-height: 1.6;
+}
+.bottom-pane-web {
+    margin-left: 36px;
+}
+.bottom-pane-freelancer {
+    margin-left: 30px;
+}
+.bottom-pane-text a {
+    text-decoration: none;
+    color: #18bc9c;
+}
+.bottom-bar {
+    background: #233140;
+    text-align: center;
+    font-size: 13px;
+    padding: 28px 0 28px;
     color: #fff;
 }
