@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
 }
 body:after {
-    content: '';
+    /*content: '';*/
     display: block;
     background: url(screenshot.png) top center no-repeat;
     width: 100%;
@@ -72,12 +72,19 @@ body:hover:after {
     background-size: 180px;
     margin: 0 auto;
 }
-.top-pane-title{
+.top-pane-title {
     font-size: 68px;
     font-weight: bold;
     color: #fff;
-    margin: 28px auto;
-    
+    margin: 28px auto 0;
+}
+.top-pane-title:after {
+    content: '';
+    display: block;
+    max-width: 250px;
+    height: 26px;
+    background: url("img/star.png") no-repeat center center;
+    margin: 24px auto 0;
 }
 .top-pane-desctiption {
     font-size: 24px;
@@ -85,7 +92,7 @@ body:hover:after {
     font-weight: 500;
     text-transform: capitalize;
     white-space: pre;
-    padding-top: 46px;
+    padding-top: 24px;
     margin: 0 auto;
 }
 .main-content-brief-bag {
@@ -94,19 +101,37 @@ body:hover:after {
     font-weight: 900;
     text-align: center;
     color: #333;
-    padding: 100px 0 38px;
+    padding: 100px 0 0;
+}
+.main-content-brief-bag:after {
+    content: '';
+    display: block;
+    max-width: 250px;
+    height: 26px;
+    background: url("img/star-blue.png") no-repeat center center;
+    margin: 12px auto 0;
 }
 .main-content {    
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 .main-content-item {
-    display: inline-block;
-    width: 30%;
-    margin: 20px 0 10px 36px;
-    vertical-align: top;
+    display: block;
+    width: 33.33%;
+    float: left;
+    padding: 25px 0;
+    margin: 0 0 30px;
+    text-align: center;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 0 #fff;
 }
 img {
-    padding: 28px 78px 24px;
+    max-width: 206px;
+    width: 80%;
+}
+.main-content-item-list {
+    padding: 20px 15px;
 }
 .home {
     background: #ba4c63;
@@ -126,9 +151,6 @@ img {
 .submarine {
     background: #ccb2a3;
 }
-.cake ,.strongbox ,.tent ,.submarine {
-    margin-left: 26px;
-}
 .main-about {
     background: #18bc9c;
     padding-bottom: 100px;
@@ -140,25 +162,38 @@ img {
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;
-    padding: 100px 0 42px;
+    padding: 100px 0 0;
+}
+.about-me:after {
+    content: '';
+    display: block;
+    max-width: 250px;
+    height: 26px;
+    background: url("img/star.png") no-repeat center center;
+    margin: 12px auto 0;
 }
 .main-about-description {
-    padding: 18px 0 0 232px;
+    padding: 22px 20px 0;
     font-size: 20px;
-    width: 370px;
+    width: 50%;
     float: left;
     line-height: 1.4;
+    box-sizing: border-box;
 }
 .main-about-sentence {
-    padding: 0 218px 0 0;
+    padding: 22px 0 0 20px;
     font-size: 20px;
-    width: 360px;
-    float: right;
+    width: 50%;
+    float: left;
     line-height: 1.4;
+    box-sizing: border-box;
+}
+.main-about .container {
+    max-width: 776px;
 }
 .about-me:after {
     content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 .download-action button {
@@ -179,8 +214,16 @@ img {
     font-size: 42px;
     text-transform: uppercase;
     font-weight: 900;
-    padding: 100px 0 58px;
+    padding: 100px 0 20px;
     color: #333;
+}
+.contact-me:after {
+    content: '';
+    display: block;
+    max-width: 250px;
+    height: 26px;
+    background: url("img/star-blue.png") no-repeat center center;
+    margin: 12px auto 0;
 }
 .main-contact form {
     width: 100%;
@@ -192,7 +235,8 @@ img {
     font-size: 20px;
     color: #a0a0a0;
     padding: 28px 20px 22px 16px;
-    width: 730px;
+    width: 100%;
+    max-width: 730px;
     margin: 0 auto;
 }
 .send-action button {
