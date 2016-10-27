@@ -241,7 +241,7 @@ img {
     text-align: left;
     
 }
-.bottom-pane{
+/*.bottom-pane{
     width: 100%;
     background: #2c3e50;
     color: #fff;
@@ -285,8 +285,10 @@ img {
     padding: 68px 0 0;
 }
 .main-social-item {
+    
     padding-top: 26px;
-    padding-left: 28px;
+    
+    box-sizing: border-box;
 }
 .social-item {
     float: left;
@@ -295,6 +297,9 @@ img {
     height: 34px;
     margin: 5px;
     padding: 8px;
+    background: yellow;
+    text-align: center;
+    
 }
 .social-item:hover {
     border: 1px solid fuchsia;
@@ -349,3 +354,4 @@ img {
         border-radius: 10px;
     }
 }
+*/
