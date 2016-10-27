@@ -255,7 +255,7 @@ img {
     padding: 68px 0 30px;
 }
 .bottom-pane-location {
-    margin-left: 40px;
+    margin-left: 25px;
 }
 .bottom-pane-location,
 .bottom-pane-web,
@@ -276,14 +276,50 @@ img {
      line-height: 1.6;
 }
 .bottom-pane-web {
-    margin-left: 36px;
+    margin-left: 30px;
+}
+.bottom-pane-around {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 68px 0 0;
+}
+.main-social-item {
+    padding-top: 26px;
+    padding-left: 28px;
+}
+.social-item {
+    float: left;
+    background: url('img/social.png') no-repeat;
+    width: 34px;
+    height: 34px;
+    margin: 5px;
+    padding: 8px;
+}
+.social-item:hover {
+    border: 1px solid fuchsia;
+}
+.social-item-fb {
+    background-position: 0 0;
+}
+.social-item-gp {
+    background-position-x: -63px;
+}
+.social-item-tw {
+    background-position-x:  -126px;
+}
+.social-item-in {
+    background-position-x: -189px;
+}
+.social-item-hz {
+    background-position-x: -252px;
 }
 .bottom-pane-freelancer {
     margin-left: 30px;
 }
 .bottom-pane-text a {
+    color: #18b999;
     text-decoration: none;
-    color: #18bc9c;
 }
 .bottom-bar {
     background: #233140;
@@ -302,5 +338,14 @@ img {
         display: block;
         float: none;
         text-align: center;
+    }
+    .top-pane-title {
+    font-size: 38px;
+    }
+    .top-pane-logo {
+        width: 85px;
+        height: 85px;
+        background-size: 60px;
+        border-radius: 10px;
     }
 }
