@@ -22,26 +22,33 @@ body:hover:after {
     max-width: 690px;
     margin: 0 auto;
 }
-.top-bar-wrapper a {
-    text-decoration: none;
+.top-bar-wrapper {
+    padding: 18px 0;
+}
+.top-bar-wrapper .text-1 {
+    vertical-align: middle;
+}
+.top-bar-logo {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 22px;
+    text-decoration: none;
     color: #595a5e;
+}
+.top-bar-logo img {
+    vertical-align: middle;
 }
 .text-1 {
     font-style: italic;
     font-size: 8px;
-    float: right;
-    padding-right: 114px;
-    padding-top: 20px;
+    display: inline-block;
     color: #696b6a;
+    margin-left: 10px;
 }
 .top-bar-contact {
     text-align: right;
     font-size: 22px;
     font-weight: 900;
     color: #616267;
-    padding-right: 12px;
-    padding-top: 20px;
+    padding: 20px 12px 20px 0;
 }
