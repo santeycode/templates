@@ -1,0 +1,16 @@
+body {
+    margin:0;
+    background: url("/screenshot.jpg") top center no-repeat;
+    height: 3349px;
+}
+body:hover:after {
+    content: '';
+    display: block;
+    background: url(screenshot2.jpg) top center no-repeat;
+    width: 100%;
+    height: 3349px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0,3;
+}
