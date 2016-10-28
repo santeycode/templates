@@ -22,22 +22,19 @@ body:hover:after {
     max-width: 690px;
     margin: 0 auto;
 }
-.top-bar-title {
+.top-bar-wrapper a {
+    text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 22px;
-    text-decoration: none;
     color: #595a5e;
-}
-.top-bar-img {
-    
 }
 .text-1 {
     font-style: italic;
     font-size: 8px;
     float: right;
-    padding-top: 20px;
     padding-right: 114px;
+    padding-top: 20px;
     color: #696b6a;
 }
 .top-bar-contact {
