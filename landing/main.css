@@ -1,16 +1,24 @@
 body {
-    margin:0;
-    background: url("/screenshot.jpg") top center no-repeat;
-    height: 3349px;
+    margin: 0;
+    height: 1012px;
+    background: #ebedec;
+    font-family: sans-serif;
 }
-body:hover:after {
+body:after {
     content: '';
     display: block;
     background: url(screenshot2.jpg) top center no-repeat;
     width: 100%;
-    height: 3349px;
+    height: 1012px;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0,3;
+    opacity: 0,6;
+}
+body:hover:after {
+    display: none;
+}
+.container {
+    max-width: 723px;
+    margin: 0 auto;
 }
