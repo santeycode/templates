@@ -13,12 +13,38 @@ body:after {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0,6;
+    opacity: 0.6;
 }
 body:hover:after {
     display: none;
 }
 .container {
-    max-width: 723px;
+    max-width: 690px;
     margin: 0 auto;
+}
+.top-bar-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 22px;
+    text-decoration: none;
+    color: #595a5e;
+}
+.top-bar-img {
+    
+}
+.text-1 {
+    font-style: italic;
+    font-size: 8px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 114px;
+    color: #696b6a;
+}
+.top-bar-contact {
+    text-align: right;
+    font-size: 22px;
+    font-weight: 900;
+    color: #616267;
+    padding-right: 12px;
+    padding-top: 20px;
 }
