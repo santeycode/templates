@@ -82,13 +82,14 @@ body:hover:after {
     font-weight: 900;
     padding-top: 18px;
 }
-.content-features input {
+.content-features img {
     vertical-align: middle;
+    display: inline-block;
 }
 .content-features {
-    /*padding: 13px 0 0 0;*/
+    padding: 16px 0 0 0;
     font-size: 9px;
-    line-height: 2.1;
+    line-height: 1;
     color: #6a6a6a;
 }
 .content-button  {
