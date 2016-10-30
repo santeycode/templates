@@ -118,23 +118,24 @@ body:hover:after {
     font-weight: bold;
     font-size: 14px;
 }
+/*---------------------------------------*/
 .content-check-in {
     background: #eff0f2;
     padding-left: 30px;
 }
 .content-check-in-wrapper img ,.text-6 {
-    display: inline-block;
+    margin-top: 11px;
     vertical-align: middle;
-    padding-top: 10px;
+    display: inline-block;
 }
 .text-6 {
-    font-size: 14px;
+    font-size: 0.8em;
+    font-weight: bold;
     padding-left: 8px;
     color: #545557;
 }
 .content-check-in form {
-    width: 100%;
-    padding-top: 9px;
+    padding-top: 8px;
     color: #6e6e6e;
 }
 .content-check-in label 
@@ -145,19 +146,21 @@ body:hover:after {
 .content-check-in-field {
     clear: both;
     text-align: right;
-    line-height: 36px;
+    line-height: 37px;
 }
-.content-check-in label {
-    float: left;    
+.content-check-in-field label {
+    float: left;
 }
 .content-check-in input {
-    padding: 5px;
+    padding: 5px 0 5px 5px;
     border-radius: 4px;
     background: #f6f6f6;
     box-sizing:border-box;
+    width: 68%;
+    margin-right: 40px
 }
 .get-action button {
-    margin-bottom: 10px;
+    
 }
 .content-check-in-checkbox a {
     font-size: 10px;
@@ -165,10 +168,6 @@ body:hover:after {
     color: #7591a7;
 }
 .content-check-in-checkbox {
-    margin-top: 13px;
     padding-top: 10px;
-}
-.get-action button {
-    margin-left: 10px;
 }
 .main-content-wrapper {}
