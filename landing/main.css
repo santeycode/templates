@@ -119,19 +119,23 @@ body:hover:after {
     font-size: 14px;
 }
 /*---------------------------------------*/
-.content-check-in {
+.content-check-in-wrapper {
     background: #eff0f2;
-    padding-left: 30px;
+    border: 2px solid #e7e8ea;
+    margin-left: 7px;
+    padding: 12px 0 0 0;
 }
-.content-check-in-wrapper img ,.text-6 {
-    margin-top: 11px;
+.content-check-in {
+    padding-left: 21px;
+    
+}
+.content-check-in-download img ,.text-6 {
     vertical-align: middle;
     display: inline-block;
 }
 .text-6 {
     font-size: 0.8em;
     font-weight: bold;
-    padding-left: 8px;
     color: #545557;
 }
 .content-check-in form {
@@ -156,8 +160,7 @@ body:hover:after {
     border-radius: 4px;
     background: #f6f6f6;
     box-sizing:border-box;
-    width: 68%;
-    margin-right: 40px
+    width: 60%;
 }
 .get-action button {
     
