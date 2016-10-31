@@ -230,10 +230,34 @@ body:hover:after {
     font-weight: bold;
 }
 .content-bottom-scroll {
-    border: 2px solid;
 }
 .content-bottom-img-1 {
     width: 25%;
     border: 4px solid #eaebed;
     padding-left: 34px;
+}
+.content-bottom-text-2 {
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.content-bottom-about-wrapper {
+    background: #eff0f2;
+}
+.content-bottom-about-text-1 {
+    font-size: 10px;s
+}
+.content-bottom-about-text-2 {
+    font-size: 9px;
+    font-style: italic;
+    line-height: 1.4;
+}
+.content-bottom-about-text-1 
+,.content-bottom-about-wrapper img {
+    vertical-align: middle;
+    display: inline-block;
+}
+.content-bottom-about-wrapper {
+    margin: 10px 18px 14px 0;
+    padding: 10px 26px 10px 14px;
 }
