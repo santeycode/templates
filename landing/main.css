@@ -119,58 +119,67 @@ body:hover:after {
     font-size: 14px;
 }
 /*---------------------------------------*/
-.content-check-in-wrapper {
-    background: #eff0f2;
-    border: 2px solid #e7e8ea;
-    margin-left: 7px;
-    padding: 12px 0 0 0;
-}
 .content-check-in {
-    padding-left: 21px;
-    
+    width: 100%;
+    border: 2px solid #e7e8ea;
+    background: #eff0f2;
+    padding: 10px 0 10px 19px;
+    margin-left: 8px;
+    margin-right: 14px
 }
 .content-check-in-download img ,.text-6 {
     vertical-align: middle;
     display: inline-block;
+    padding-left: 1px;
 }
 .text-6 {
+    vertical-align: middle;
+    display: inline-block;
     font-size: 0.8em;
     font-weight: bold;
     color: #545557;
+    padding-left: 11px;
 }
-.content-check-in form {
+.content-check-in-fieldset {
     padding-top: 8px;
-    color: #6e6e6e;
-}
-.content-check-in label 
-,.content-check-in input {
-    vertical-align: middle;
-    font-size: 9px;
-}
-.content-check-in-field {
-    clear: both;
-    text-align: right;
     line-height: 37px;
 }
-.content-check-in-field label {
-    float: left;
+.content-check-in-field 
+,.content-check-in-field input {
+    font-size: 9px;
+    font-weight: bold;
+    color: #6e6e6e;
 }
-.content-check-in input {
-    padding: 5px 0 5px 5px;
+.content-check-in-field input {
+    padding: 5px 0 4px 3px;
     border-radius: 4px;
     background: #f6f6f6;
     box-sizing:border-box;
-    width: 60%;
-}
-.get-action button {
-    
+    width: 73%;
+    margin-right: 17px;
+    float: right;
+    clear: both;
+    margin-top: 6px;
 }
 .content-check-in-checkbox a {
-    font-size: 10px;
     text-decoration: none;
     color: #7591a7;
 }
 .content-check-in-checkbox {
+    font-size: 9px;
     padding-top: 10px;
+    float: left;
+    clear: both;
+    padding-right: 34px;
+}
+.get-action {
+    padding-top: 13px;
+}
+.get-action button {
+    font-size: 8px;
+    font-weight: bold;
+    padding: 5px 17px;
+    color: #ddffff;
+    background: #2675b0;
 }
 .main-content-wrapper {}
