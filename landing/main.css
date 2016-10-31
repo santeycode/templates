@@ -219,3 +219,10 @@ body:hover:after {
     font-size: 9px;
     color: #e5ffff;
 }
+/*------------_________________-----------*/
+.content-bottom {
+    border-top: 2px solid #dedede;
+}
+.content-bottom-scroll {
+    background: yellowgreen;
+}
