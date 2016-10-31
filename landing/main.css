@@ -210,3 +210,12 @@ body:hover:after {
     padding-top: 10px;
     line-height: 1.5;
 }
+.lean-more-action {
+    padding-top: 8px;
+}
+.lean-more-action button {
+    padding: 4px 10px 4px 15px;
+    background: #2b6b99;
+    font-size: 9px;
+    color: #e5ffff;
+}
