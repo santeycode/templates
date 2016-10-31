@@ -182,4 +182,28 @@ body:hover:after {
     color: #ddffff;
     background: #2675b0;
 }
-.main-content-wrapper {}
+/*----->----->----->----->----->*/
+.main-content-wrapper {
+    background: #f5f5f5;
+    margin-top: 14px;
+}
+.main-content-1 {
+    padding-top: 12px;
+    padding-left: 10px;
+}
+.main-content-1 img {
+    padding: 8px;
+    background: #e9eef1;
+}
+.main-content-header {
+    padding-top: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+.main-content-text {
+    font-size: 9px;
+    padding-left: 12px;
+    padding-top: 12px;
+    line-height: 1.5;
+}
