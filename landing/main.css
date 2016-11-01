@@ -308,3 +308,51 @@ body:hover:after {
     background: #2b6b99;
     padding: 4px 12px 4px 10px;
 }
+/*-------------------------------------------------*/
+.main-footer {
+    background: #f5f5f5;
+    margin-top: 14px;
+}
+.main-footer-tweets {
+    padding-left: 12px;
+}
+.main-footer-tweets
+,.main-footer-location {
+    font-size: 12px;
+    font-weight: bold;
+    color: #525358;
+    padding-top: 12px;
+}
+.main-footer-location-map {
+    padding-top: 11px;
+}
+.main-footer-location-adress-title {
+    padding-top: 12px;
+    font-size: 9px;
+    color: #404040;
+}
+.main-footer-location-adress-street {
+    padding-top: 3px;
+    font-size: 8px;
+    color: #717171;
+}
+.main-footer-location-adress-land {
+    padding-top: 3px;
+    font-size: 9px;
+    color: #717171;
+}
+.main-footer-location-adress-web a {
+    padding-top: 4px;
+    font-size: 8px;
+    text-decoration: none;
+    color: #7ea7c5;
+}
+.contactus-action {
+    padding-top: 4px;
+}
+.contactus-action button {
+    font-size: 9px;
+    padding: 4px 12px;
+    background: #2d73a7;
+    color: #d7faff;
+}
