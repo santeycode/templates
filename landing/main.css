@@ -356,17 +356,37 @@ body:hover:after {
     color: #d7faff;
 }
 .footer {
-    border-top: 2px solid;
-    padding-top: 0px
+    background: #f5f5f5;
+    border-top: 2px solid #eeeeee;
+    padding-bottom: 10px;
 }
 .footer-copyright {
     padding: 16px 0 10px 12px;
     font-size: 9px;
+}
+.footer-social-item {
+    text-align: right;
+    padding: 14px 18px 0 0;
 }
 .social-item {
     display: inline-block;
     background: url('img/social.jpg') no-repeat;
     width: 21px;
     height: 21px;
-    margin: 4px;
+    padding: 2px
+}
+.social-item-fb {
+    background-position:  0 0;
+}
+.social-item-in {
+    background-position: -28px 0;
+}
+.social-item-yt {
+    background-position: -58px 0;
+}
+.social-item-tw {
+    background-position: -87px 0;
+}
+.social-item-sc {
+    background-position: -118px 0;
 }
